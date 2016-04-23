@@ -27,14 +27,10 @@ Steps to recreate this bug:
 
 Current workaround:
 ===
-1 . Install Code2000 - (See : [Code2000\CODE2000.TTF](Code2000/CODE2000.TTF))
-
+1. Install Code2000 - (See : [Code2000\CODE2000.TTF](Code2000/CODE2000.TTF))
 2. Open phpStorm's settings. (CTRL+ALT+S)
-
 3. Uncheck "Show Only Monospaced Fonts"
-
 4. Configure phpStorm to use "Code2000" as the *secondary fallback font.*
-
 5. Restart phpStorm and test. 
 
 **Notes:**
