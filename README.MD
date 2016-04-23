@@ -35,7 +35,12 @@ Current workaround:
 
 **Notes:**
 ---
-Code2000 is a shareware font. 
+This workaround is not ideal as Code2000 is a shareware font that has not been mantained in years. 
 (See : [Code2000\CODE2000.HTM](Code2000/CODE2000.HTM))
+
+The issue is NOT a font bug, because Arial Unicode MS displays perfectly in other text-editors like Notpad++ & SublimeText. 
+
+My hunch is that it stems from the way phpStorm or JRE handles font re-sizing and re-drawing. It would 
+be great if someone could take a look at the fontconfig.options file. 
 
 ** There is still a kerning bug with phpStorm 2016.1 in the phpDoc comments. (check out the comments in [unicode-tests.php](unicode-tests.php))
