@@ -38,7 +38,7 @@ Current workaround:
 This workaround is not ideal as Code2000 is a shareware font that has not been mantained in years. 
 (See : [Code2000\CODE2000.HTM](Code2000/CODE2000.HTM))
 
-The issue is NOT a font bug, because Arial Unicode MS displays perfectly in other text-editors like Notpad++ & SublimeText. 
+__The issue is NOT a font bug__, because Arial Unicode MS displays perfectly in other text-editors like Notpad++ & SublimeText. 
 
 My hunch is that it stems from the way phpStorm or JRE handles font re-sizing and re-drawing. It would 
 be great if someone could take a look at the fontconfig.options file. 
