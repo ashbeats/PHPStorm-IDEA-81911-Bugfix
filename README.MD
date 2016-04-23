@@ -1,8 +1,9 @@
 PhpStorm Bug
 ===
 
-This is a workaround to fix the UNICODE character display bug outlined here:
+This is a workaround to fix the UNICODE character display bug outlined here:  
 https://youtrack.jetbrains.com/issue/IDEA-81911
+
 
 I can confirm that this bug is still present  as of 24 Apr 2016 in the following versions:
  
@@ -26,7 +27,7 @@ Steps to recreate this bug:
 
 Current workaround:
 ===
-1 . Install Code2000 - (See : [Code2000\CODE2000.TTF](Code2000\CODE2000.TTF))
+1 . Install Code2000 - (See : [Code2000\CODE2000.TTF](Code2000/CODE2000.TTF))
 
 2. Open phpStorm's settings. (CTRL+ALT+S)
 
@@ -39,6 +40,6 @@ Current workaround:
 **Notes:**
 ---
 Code2000 is a shareware font. 
-(See : [Code2000\CODE2000.HTM](Code2000\CODE2000.HTM))
+(See : [Code2000\CODE2000.HTM](Code2000/CODE2000.HTM))
 
 
