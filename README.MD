@@ -38,4 +38,4 @@ Current workaround:
 Code2000 is a shareware font. 
 (See : [Code2000\CODE2000.HTM](Code2000/CODE2000.HTM))
 
-
+** There is still a kerning bug with phpStorm 2016.1 in the phpDoc comments. (check out the comments in [unicode-tests.php](unicode-tests.php))
